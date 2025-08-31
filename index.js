@@ -79,6 +79,7 @@ function up() {
     header.style.top = "0px"
     container.style.paddingTop = "120px"
     navig.style.transform = "rotateX(0deg)"
+    x = 0
 }
 
 function down() {
@@ -88,6 +89,7 @@ function down() {
     header.style.top = "-100px"
     container.style.paddingTop = "70px"
     navig.style.transform = "rotateX(180deg)"
+    x = 1
 }
 
 var prevScrollpos = window.pageYOffset;
@@ -105,11 +107,11 @@ window.onscroll = function() {
 x = 1
 function nn() {
     if (x == 1) {
-        up()
+        down()
         x = 0
     }
     else if (x == 0) {
-        down()
+        up()
         x = 1
     }
 }
