@@ -105,11 +105,11 @@ window.onscroll = function() {
 x = 1
 function nn() {
     if (x == 1) {
-        down()
+        up()
         x = 0
     }
     else if (x == 0) {
-        up()
+        down()
         x = 1
     }
 }
