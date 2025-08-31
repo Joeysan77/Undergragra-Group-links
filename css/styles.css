@@ -153,6 +153,7 @@ a {
     padding-left: 10px;
     border: none;
     outline: none;
+    background: transparent;
 }
 #searchdiv:hover {
     box-shadow: 0px 0px 5px rgb(0,0,0,0.2);
