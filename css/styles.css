@@ -199,8 +199,8 @@ a {
     transform: rotateX(0deg);
 }
 #helpp {
-    word-break: 80%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
 }
 #links {
