@@ -46,7 +46,8 @@ a {
     padding-top: 0;
     margin-top: 0;
     position: fixed;
-    background: white;
+    background: transparent;
+    backdrop-filter: blur(10px);
     top: 0;
     box-sizing: border-box;
 }
