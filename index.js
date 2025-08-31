@@ -79,7 +79,7 @@ function up() {
     header.style.top = "0px"
     container.style.paddingTop = "120px"
     navig.style.transform = "rotateX(0deg)"
-    x = 0
+    x = 1
 }
 
 function down() {
@@ -89,7 +89,7 @@ function down() {
     header.style.top = "-100px"
     container.style.paddingTop = "70px"
     navig.style.transform = "rotateX(180deg)"
-    x = 1
+    x = 0
 }
 
 var prevScrollpos = window.pageYOffset;
