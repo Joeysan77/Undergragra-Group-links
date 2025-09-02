@@ -11,8 +11,8 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     const search = document.getElementById('search');
-    const container = document.getElementById('container');
-    const cards = Array.from(document.querySelectorAll('.flexbox'));
+    const container = document.getElementById('cont');
+    const cards = Array.from(document.querySelectorAll('.conti'));
 
     if (!search) {
       console.error('Search input #search not found.');
