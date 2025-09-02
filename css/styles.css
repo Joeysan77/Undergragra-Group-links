@@ -19,6 +19,9 @@ body {
 body ,button  , p , input {
     font-family: samsung-sans;
 }
+#cont {
+  margin: 30px;
+}
 * {
     transition: 0.3s !important;
 }
