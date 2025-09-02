@@ -28,7 +28,7 @@ a {
 #container {
     margin: 0;
     padding: 0;
-    background:;
+    background:red;
     width: 100%;
     height: auto;
     box-sizing: border-box;
