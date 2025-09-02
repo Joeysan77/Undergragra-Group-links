@@ -11,7 +11,7 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     const search = document.getElementById('search');
-    const container = document.getElementById('container');
+    const container = document.getElementById('cont');
     const cards = Array.from(document.querySelectorAll('.flexbox'));
 
     if (!search) {
