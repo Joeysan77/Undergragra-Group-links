@@ -16,9 +16,6 @@ body {
     src: url('../Fonts/SamsungSans-Regular.ttf');
     
 }
-.cont {
-  margin: 30px;
-}
 body ,button  , p , input {
     font-family: samsung-sans;
 }
