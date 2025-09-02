@@ -12,7 +12,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     const search = document.getElementById('search');
     const container = document.getElementById('cont');
-    const cards = Array.from(document.querySelectorAll('.conti'));
+    const cards = Array.from(document.querySelectorAll('.container'));
 
     if (!search) {
       console.error('Search input #search not found.');
