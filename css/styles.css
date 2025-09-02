@@ -30,6 +30,7 @@ a {
     padding: 0;
     background:;
     width: 100%;
+    height: auto;
     box-sizing: border-box;
     padding-bottom: 10px;
     padding-top: 120px;
