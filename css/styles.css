@@ -126,7 +126,7 @@ a {
 }
 .link:hover {
     background: #20b857; 
-    box-sizing: 0px 0px 10px rgba(0,0,0,0.3);/* darker green on hover */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);/* darker green on hover */
 }
 .link i {
     font-size: 22px;
