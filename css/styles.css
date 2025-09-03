@@ -145,7 +145,7 @@ a {
     margin-left: 10%;
     border: 1px solid rgb(0,0,0,0.5);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 #searchdiv i {
     font-size: 20px;
@@ -161,7 +161,7 @@ a {
     background: transparent;
 }
 #searchdiv:hover {
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
 }
 #first {
     display: flex;
