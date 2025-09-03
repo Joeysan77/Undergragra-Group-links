@@ -133,6 +133,11 @@ a {
     display: flex;
     align-items: center;
 }
+a {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .link p {
     margin: 0; /* remove default p spacing */
 }
