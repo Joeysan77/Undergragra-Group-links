@@ -62,12 +62,12 @@ a {
     box-sizing: border-box;
     background: rgb(255,255,255,0.2);
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
 }
 .fleximg {
     height: 80px;
-    border-radius: 10px;
+    border-radius: 15px;
     flex: 1;
     max-width: 80px;
     max-height: 80px;
@@ -114,7 +114,7 @@ a {
     color: white;
     font-size: 14px;
     margin-top: 12px;
-    border-radius: 10px; /* perfect pill */
+    border-radius: 15px; /* perfect pill */
     text-decoration: none;
     display: flex;
     align-items: center; /* vertical centering */
@@ -181,7 +181,7 @@ a {
 #first img {
     height: 50px;
     margin-right:10px;
-    border-radius:10px;
+    border-radius:15px;
 }
 #first p {
     font-size: 23px;
@@ -208,7 +208,7 @@ a {
     font-size: 20px;
     padding: 5px 10px;
     border: 1px solid rgb(0,0,0,0.5);
-    border-radius: 10px;
+    border-radius: 15px;
     transform: rotateX(0deg);
     box-shadow: 0px 0px 5px rgb(0 0,0,0.3);
 }
@@ -227,7 +227,7 @@ a {
 #links img {
     max-width: 30px;
     max-height: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
     box-shadow: 0px 0px 1px rgb(0,0,0,0.5);
 }
