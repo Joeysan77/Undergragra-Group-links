@@ -54,6 +54,7 @@ a {
     backdrop-filter: blur(10px);
     top: 0;
     box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
 }
 .flexbox {
     padding: 10px;
