@@ -73,11 +73,12 @@ a {
     max-width: 80px;
     max-height: 80px;
     border: none;
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+    box-shadow: 0px 0px 3px rgb(0,0,0,0.2);
     padding: 2px;
 }
 .fleximg:hover {
   scale: 1.1;
+  box-shadow: 0px 0px 8px rgb(0,0,0,0.3);
 }
 .flexp {
     flex: 1;
