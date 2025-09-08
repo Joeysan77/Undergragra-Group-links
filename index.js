@@ -114,19 +114,20 @@ function nn() {
         x = 1
     }
 }
-g = 1
 function darke() {
   
   dark = document.getElementById('dark')
-  if (g == 1) {
+  if (dark.style.display == "none") {
     dark.style.display = 'block'
-   setTimeout(() => {dark.style.background = 'rgba(0,0,0,0.5)'dark.style.backdropFilter = 'blur(20px)'},10)
-    g = 0
+   setTimeout(() => {
+  dark.style.background = 'rgba(0,0,0,0.5)';
+  dark.style.backdropFilter = 'blur(20px)';
+}, 10);
   }
-  else if (g == 0) {
+  else if (dark.style.display == 'block'.) {
     dark.style.background = 'rgb(0,0,0,0)'
     dark.style.backdropFilter = 'blur(0px)'
     g = 1
-    setTimeout(() => dark.style.display = 'none' , 500)
+    setTimeout(() => dark.style.display = 'none' , 300)
   }
 }
