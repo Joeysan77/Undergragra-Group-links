@@ -28,6 +28,9 @@ body ,button  , p , input {
     display: none;
     overflow: hidden;
 }
+#dark:hover {
+    background: red;
+}
 #cont {
   margin: 30px;
 }
