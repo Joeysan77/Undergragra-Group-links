@@ -115,7 +115,7 @@ function nn() {
     }
 }
 g = 1
-function dark() {
+function darke() {
   
   dark = document.getElementById('dark')
   if (g == '1') {
