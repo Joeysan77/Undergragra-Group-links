@@ -124,7 +124,7 @@ function darke() {
   dark.style.backdropFilter = 'blur(20px)';
 }, 10);
   }
-  else if (dark.style.display == 'block'.) {
+  else if (dark.style.display == 'block') {
     dark.style.background = 'rgb(0,0,0,0)'
     dark.style.backdropFilter = 'blur(0px)'
     g = 1
