@@ -24,7 +24,7 @@ body ,button  , p , input {
     position: fixed;
     backdrop-filter: blur(0px);
     background: transparent;
-    z-index: 10;
+    z-index: 999;
     display: none;
     
 }
