@@ -1,4 +1,3 @@
-<!-- Put this script at the end of the body (or use <script defer src="index.js">) -->
 (function () {
   // simple debounce
   function debounce(fn, wait = 120) {
@@ -114,4 +113,18 @@ function nn() {
         up()
         x = 1
     }
+}
+
+function dark() {
+  dark = document.getElementById('dark')
+  if (dark.style.background = 'transparent') {
+    dark.style.display = 'block'
+    dark.style.background = 'rgba(0,0,0,0.5)'
+    dark.style.backdropFilter = 'blur(20px)'
+  }
+  else if (dark.style.background = 'rgba(0,0,0,0.5)') {
+    dark.style.background = 'transparent'
+    dark.style.backdropFilter = 'blur(0px)'
+    setTimeout(() => dark.style.display = 'block' , 500)
+  }
 }
