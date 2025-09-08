@@ -26,7 +26,7 @@ body ,button  , p , input {
     background: transparent;
     z-index: 10;
     display: none;
-    overflow: hidden;
+    
 }
 #dark:hover {
     background: red;
