@@ -114,19 +114,19 @@ function nn() {
         x = 1
     }
 }
-dark = document.getElementById('dark')
-dark.style.display = 'none'
+g = 1
 function darke() {
   
   dark = document.getElementById('dark')
-  if (dark.style.display == "none") {
+  if (g == 1) {
     dark.style.display = 'block'
    setTimeout(() => {
   dark.style.background = 'rgba(0,0,0,0.5)';
   dark.style.backdropFilter = 'blur(20px)';
+  g = 0;
 }, 10);
   }
-  else if (dark.style.display == 'block') {
+  else if (g == 0) {
     dark.style.background = 'rgb(0,0,0,0)'
     dark.style.backdropFilter = 'blur(0px)'
     g = 1
