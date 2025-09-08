@@ -114,6 +114,8 @@ function nn() {
         x = 1
     }
 }
+dark = document.getElementById('dark')
+dark.style.display = 'none'
 function darke() {
   
   dark = document.getElementById('dark')
