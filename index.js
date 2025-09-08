@@ -125,7 +125,7 @@ function darke() {
     g = 0
   }
   else if (g == 0) {
-    dark.style.background = 'transparent'
+    dark.style.background = 'rgb(0,0,0,0)'
     dark.style.backdropFilter = 'blur(0px)'
     g = 1
     setTimeout(() => dark.style.display = 'none' , 500)
