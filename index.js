@@ -116,15 +116,16 @@ function nn() {
 }
 
 function dark() {
+  
   dark = document.getElementById('dark')
-  if (dark.style.background = 'transparent') {
+  if (dark.style.background == 'transparent') {
     dark.style.display = 'block'
     dark.style.background = 'rgba(0,0,0,0.5)'
     dark.style.backdropFilter = 'blur(20px)'
   }
-  else if (dark.style.background = 'rgba(0,0,0,0.5)') {
+  else if (dark.style.background == 'rgba(0,0,0,0.5)') {
     dark.style.background = 'transparent'
     dark.style.backdropFilter = 'blur(0px)'
-    setTimeout(() => dark.style.display = 'block' , 500)
+    setTimeout(() => dark.style.display = 'none' , 500)
   }
 }
