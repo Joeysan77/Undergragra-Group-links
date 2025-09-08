@@ -118,7 +118,7 @@ g = 1
 function darke() {
   
   dark = document.getElementById('dark')
-  if (g == '1') {
+  if (g == 1) {
     dark.style.display = 'block'
     dark.style.background = 'rgba(0,0,0,0.5)'
     dark.style.backdropFilter = 'blur(20px)'
