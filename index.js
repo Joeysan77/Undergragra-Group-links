@@ -120,8 +120,7 @@ function darke() {
   dark = document.getElementById('dark')
   if (g == 1) {
     dark.style.display = 'block'
-   setTimeout(() => dark.style.background = 'rgba(0,0,0,0.5)'
-    dark.style.backdropFilter = 'blur(20px)',10)
+   setTimeout(() => {dark.style.background = 'rgba(0,0,0,0.5)'dark.style.backdropFilter = 'blur(20px)'},10)
     g = 0
   }
   else if (g == 0) {
