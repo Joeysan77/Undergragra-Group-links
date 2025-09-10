@@ -115,6 +115,8 @@ function nn() {
     }
 }
 g = 1
+
+
 function darke() {
   
   dark = document.getElementById('dark')
@@ -131,5 +133,22 @@ function darke() {
     dark.style.backdropFilter = 'blur(0px)'
     g = 1
     setTimeout(() => dark.style.display = 'none' , 300)
+  }
+}
+
+function menu() {
+  
+  menu = document.getElementById('menu')
+  if (g == 1) {
+    menu.style.display = 'block'
+   setTimeout(() => {
+  menu.style.left = '0';
+  g = 0;
+}, 10);
+  }
+  else if (g == 0) {
+    menu.style.left = '100%'
+    g = 1
+    setTimeout(() => menu.style.display = 'none' , 300)
   }
 }
