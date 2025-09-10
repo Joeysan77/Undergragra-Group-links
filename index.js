@@ -1,3 +1,4 @@
+
 (function () {
   // simple debounce
   function debounce(fn, wait = 120) {
@@ -18,27 +19,61 @@
       return;
     }
 
-    // Save each card's original display (so we don't hardcode "flex")
+    // Add inline CSS styles for animation
+    const style = document.createElement('style');
+    style.textContent = `
+      .flexbox {
+        transition: opacity 0.25s ease, transform 0.25s ease;
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .flexbox.hide {
+        opacity: 0;
+        transform: translateY(10px);
+        pointer-events: none;
+      }
+      #noResultsMessage {
+        transition: opacity 0.25s ease, transform 0.25s ease;
+        opacity: 1;
+        transform: translateY(0);
+        text-align: center;
+        color: #888;
+        margin: 16px 0;
+      }
+      #noResultsMessage.hide {
+        opacity: 0;
+        transform: translateY(10px);
+        pointer-events: none;
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Save each card's original display
     cards.forEach(card => {
       const cs = window.getComputedStyle(card);
-      // if display is "none" (unlikely), default to "flex"
-      card.dataset.origDisplay = cs.display && cs.display !== 'none' ? cs.display : 'flex';
+      card.dataset.origDisplay =
+        cs.display && cs.display !== 'none' ? cs.display : 'flex';
     });
 
-    // show/hide "no results" message
     const NO_ID = 'noResultsMessage';
     function setNoResults(show) {
-      const existing = document.getElementById(NO_ID);
-      if (show && !existing) {
-        const p = document.createElement('p');
-        p.id = NO_ID;
-        p.textContent = 'No universities found';
-        p.style.textAlign = 'center';
-        p.style.color = '#888';
-        p.style.margin = '16px 0';
-        container.appendChild(p);
-      } else if (!show && existing) {
-        existing.remove();
+      let msg = document.getElementById(NO_ID);
+
+      if (show) {
+        if (!msg) {
+          msg = document.createElement('p');
+          msg.id = NO_ID;
+          msg.textContent = 'No universities found';
+          container.appendChild(msg);
+          msg.offsetHeight; // force reflow for transition
+        }
+        msg.classList.remove('hide');
+      } else if (msg) {
+        msg.classList.add('hide');
+        msg.addEventListener('transitionend', function handler() {
+          if (msg.classList.contains('hide')) msg.remove();
+          msg.removeEventListener('transitionend', handler);
+        });
       }
     }
 
@@ -47,28 +82,35 @@
       let found = 0;
 
       cards.forEach(card => {
-        const name = card.querySelector('.flexp')?.textContent.toLowerCase() || '';
-        const desc = card.querySelector('.flexpid')?.textContent.toLowerCase() || '';
-        const text = (name + ' ' + desc);
+        const name =
+          card.querySelector('.flexp')?.textContent.toLowerCase() || '';
+        const desc =
+          card.querySelector('.flexpid')?.textContent.toLowerCase() || '';
+        const text = name + ' ' + desc;
+
         if (q === '' || text.includes(q)) {
+          card.classList.remove('hide');
           card.style.display = card.dataset.origDisplay;
           found++;
         } else {
-          card.style.display = 'none';
+          card.classList.add('hide');
+          card.addEventListener('transitionend', function handler() {
+            if (card.classList.contains('hide')) {
+              card.style.display = 'none';
+            }
+            card.removeEventListener('transitionend', handler);
+          });
         }
       });
 
       setNoResults(found === 0);
-      // console.log('search', q, 'matches', found);
     }
 
-    // run on input with debounce
     search.addEventListener('input', debounce(filterCards, 80));
-
-    // initial pass (in case page loads with something in the search box)
-    filterCards();
+    filterCards(); // initial run
   });
 })();
+
 
 
 function up() {
