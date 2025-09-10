@@ -24,9 +24,17 @@ body ,button  , p , input {
     position: fixed;
     backdrop-filter: blur(0px);
     background: rgb(0,0,0,0);
-    z-index: 999;
+    z-index:9;
     display: none;
     overflow: auto;
+}
+#menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  display: none;
+  left: 100%;
 }
 
 #cont {
