@@ -194,8 +194,7 @@ a {
 }
 #searchdiv:hover {
     box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
-    border-color: green;
-    scale: 1.05 1;
+    scale: 1.02 1;
 }
 #first {
     display: flex;
