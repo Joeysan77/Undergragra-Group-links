@@ -136,7 +136,7 @@ function darke() {
   }
 }
 
-function menu() {
+function menue() {
   
   menu = document.getElementById('menu')
   if (g == 1) {
