@@ -65,9 +65,6 @@ a {
 .header {
     font-size: 20px;
     text-align: center;
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: rgb(0,0,0,0.5);
     border-radius: 15px;
     width: 100%;
     padding: 10px;
