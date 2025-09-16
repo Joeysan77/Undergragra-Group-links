@@ -7,16 +7,64 @@ html , body {
 }
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display: none; }
 body {
-    font-family: samsung-sans;
+    font-family: FedExSans;
     transition: 0.5s;
 }
-@font-face  {
-    font-family: 'samsung-sans';
-    src: url('../Fonts/SamsungSans-Regular.ttf');
+@font-face{ 
+    font-family:FedExSans;
+    font-style:normal; 
+    font-weight:300;src:url("../Fonts/FedExSans_W-Light.woff2") format("woff2")}
+
+@font-face{ 
+    font-family:FedExSans; 
+    font-style:italic; 
+    font-weight:300;src:url("../Fonts/FedExSans_W-Light-Italic.woff2") format("woff2")}
+
+@font-face{
+    font-family:FedExSans;
+    font-style:normal;
+    font-weight:400;src:url("../Fonts/FedExSans_W-Regular.woff2") format("woff2")}
+
+@font-face{
+    font-family:FedExSans;
+    font-style:italic;
+    font-weight:400;src:url("../Fonts/FedExSans_W-Italic.woff2") format("woff2")}
     
-}
+@font-face{
+     font-family:FedExSans;   .
+     font-style:normal; 
+     font-weight:500;src:url("../Fonts/FedExSans_W-Medium.woff2") format("woff2")}
+     
+@font-face {
+    font-family:FedExSans;
+    font-style:normal;
+    font-weight:700;src:url("../Fonts/FedExSans_W-Bold.woff2") format("woff2")}
+
+@font-face { 
+    font-family:FedExSans; 
+    font-style:italic; 
+    font-weight:700;src:url("../Fonts/FedExSans_W-Bold-Italic.woff2") format("woff2")}
+    
+@font-face {
+    font-family:FedExSansArabic; 
+    font-style:normal; 
+    font-weight:700;src:url("../Fonts/FedExSansArabic_W-Bold.woff2") format("woff2")}
+
+@font-face {
+    font-family: FedExSansArabic; 
+    font-style:normal;  
+    font-weight:300;src:url("../Fonts/FedExSansArabic_W-Light.woff2") format("woff2")}
+
+@font-face { 
+    font-family:FedExSansArabic; 
+    font-style:normal;
+    font-weight:400;src:url("../Fonts/FedExSansArabic_W-Regular.woff2") format("woff2")}
+
+
+
 body ,button  , p , input {
-    font-family: samsung-sans;
+    font-family: FedExSans,Arial,sans-serif;
+    
 }
 #dark {
     height:100%;
