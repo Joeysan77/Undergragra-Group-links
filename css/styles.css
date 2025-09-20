@@ -343,14 +343,7 @@ a {
     position: relative;
 }
 #dhubsp {
-    width: 80%;
-    margin: 0;
-    margin-left: 10%;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    padding: 5px;
-    color: rgb(0,0,0,0.5) !important;
+    
 }
 #cat {
     color: ;
