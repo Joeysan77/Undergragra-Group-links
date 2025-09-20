@@ -155,7 +155,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
-#searchdiv {
+#search_div {
     border-radius: 13px;
     border: 1.5px solid rgb(0,0,0,0);
     padding: 5px;
@@ -164,27 +164,31 @@ a {
     min-width: ;
     width: 65%;
     max-height: 40px;
-    mix-blend-mode: difference;
     background: rgb(255,255,255,.3);
 }
-#searchdiv i {
+#search_div i {
    font-size: 20px;
     padding: 5px;
     border: none;
     background: transparent;
     
 }
-#searchdiv input {
+#search_div input {
     font-size: 16px;
+    max-width: 80%;
+    width: 80%;
     padding: 5px;
-    padding-left: 10px;
+    background: transparent;
     border: none;
     outline: none;
-    background: transparent;
+    font-weight: 500;
 }
-#searchdiv:hover {
+#search_div:hover {
     box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
     scale: 1.02 1;
+}
+#search_div input::placeholder {
+    color: rgb(0,0,0,.5);
 }
 #first {
     display: flex;
