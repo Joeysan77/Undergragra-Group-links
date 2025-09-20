@@ -277,6 +277,51 @@ a {
     font-size: 20px;
 }
 
+#dhub {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  padding: 25px;
+  color: white;
+  border-radius: px;
+}
+
+.layer {
+  position: absolute;
+  top: -175%;
+  left: -25%;
+  width: 80%;
+  height: 350%;
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  display:;
+  color-scheme: light;
+  forced-color-adjust: none;
+  -webkit-forced-colors-adjust: none;
+  forced-color-adjust: none;
+}
+b {
+    color: #08662f ! important;
+}
+
+
+/* Define the 5 colors */
+.layer1 { background: #08662f; box-shadow: 0px 0px 200px 100px #08662f; animation: rotate 10s linear infinite, pulse 2s ease-in-out infinite alternate; width: 50%; }
+.layer2 { background: #FFFF95D2; box-shadow: 0px 0px 290px 100px #FFFF95D2;  animation: rotate 20s linear infinite reverse, pulse 8s ease-in-out infinite alternate; }
+.layer3 { background: #FFFF4A2B; box-shadow: 0px 0px 200px 100px #FFFF4A2B; animation:  rotate 30s linear infinite, pulse 10s ease-in-out infinite alternate; }
+.layer4 { background: yellow; box-shadow: 0px 0px 200px  100px yellow; animation: rotate 40s linear infinite reverse, pulse 7s ease-in-out infinite alternate; } /* Greenish blue */
+.layer5 { background: #1E90FF; box-shadow: 0px 0px 200px 100px #1e90ff; animation: rotate 55s linear infinite, pulse 9s ease-in-out infinite alternate; } /* Blue */
+.layer6 { background: #FFFF9D00; box-shadow: 0px 0px 200px  100px #ffff9d00; animation: rotate 40s linear infinite reverse, pulse 7s ease-in-out infinite alternate; } /* Greenish blue */
+.layer7 { background: green; box-shadow: 0px 0px 200px 100px green; animation: rotate 55s linear infinite, pulse 9s ease-in-out infinite alternate; } /* Blue */
+
+
+
+
+
+
 .flexbox {
   width: 90%;
   margin-left: 5%;
