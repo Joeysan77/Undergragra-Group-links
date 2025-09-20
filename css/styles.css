@@ -316,6 +316,20 @@ b {
 .layer5 { background: #1E90FF; box-shadow: 0px 0px 200px 100px #1e90ff; animation: rotate 55s linear infinite, pulse 9s ease-in-out infinite alternate; } /* Blue */
 .layer6 { background: #FFFF9D00; box-shadow: 0px 0px 200px  100px #ffff9d00; animation: rotate 40s linear infinite reverse, pulse 7s ease-in-out infinite alternate; } /* Greenish blue */
 .layer7 { background: green; box-shadow: 0px 0px 200px 100px green; animation: rotate 55s linear infinite, pulse 9s ease-in-out infinite alternate; } /* Blue */
+
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.05); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 0.6; }
+  100% { opacity: 0.4; }
+}
+
 #dhubp {
     font-size: 30px;
     text-align: center;
