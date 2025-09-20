@@ -210,7 +210,11 @@ a {
     color: #307a00;
 }
 .second {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: black;
 }
 .second i {
     border: 1.5px solid rgb(0,0,0,0);
@@ -265,7 +269,7 @@ a {
   padding:10px;
   border-radius: 15px;
 }
-.flex img::hover {
+.flex img:hover {
   scale: 1.05;
   box-shadow: 0px 2px 2px rgb(0,0,0,0.2);
 }
