@@ -268,6 +268,7 @@ a {
   max-height: 80px;
   padding:10px;
   border-radius: 15px;
+  border: 1px solid rgb(0,0,0,0.2);
 }
 .flex img:hover {
   scale: 1.05;
@@ -289,7 +290,17 @@ a {
     color: rgb(0,0,0,.7);
     margin: 10px;
 }
-
+.link {
+  display: flex;
+  color: white;
+  background: rgb(0,134,47);
+}
+.link i {
+  font-size: 20px;
+}
+.link p {
+  font-size: 15px;
+}
 
 
 
