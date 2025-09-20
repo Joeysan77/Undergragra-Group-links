@@ -12,7 +12,7 @@ body {
 }
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansHairline.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansHairline.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
@@ -20,7 +20,7 @@ body {
 /* Facebook Sans - Light (300) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansLight.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansLight.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
 /* Facebook Sans - Light Italic (300 italic) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansLightItalic.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansLightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
@@ -36,7 +36,7 @@ body {
 /* Facebook Sans - Regular (400) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansRegular.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansRegular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ body {
 /* Facebook Narrow App Regular (400, alt style) */
 @font-face {
   font-family: "FacebookNarrow";
-  src: url("../fonts/FacebookNarrowAppRegular.ttf") format("truetype");
+  src: url("../Fonts/FacebookNarrowAppRegular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -52,7 +52,7 @@ body {
 /* Facebook Sans - Italic (400 italic) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansItalic.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansItalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
@@ -60,7 +60,7 @@ body {
 /* Facebook Sans - Bold (700) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansBold.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansBold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -68,7 +68,7 @@ body {
 /* Facebook Sans - Bold Italic (700 italic) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansBoldItalic.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansBoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
@@ -76,7 +76,7 @@ body {
 /* Facebook Sans - Heavy (900) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansHeavy.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansHeavy.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -84,7 +84,7 @@ body {
 /* Facebook Sans - Heavy Italic (900 italic) */
 @font-face {
   font-family: "FacebookSans";
-  src: url("../fonts/FacebookSansHeavyItalic.ttf") format("truetype");
+  src: url("../Fonts/FacebookSansHeavyItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
