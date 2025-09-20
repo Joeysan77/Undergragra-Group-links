@@ -265,8 +265,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 90%;
-  margin-left:5%;
 }
 .flex img {
   height: 80px;
@@ -304,9 +302,8 @@ a {
   padding: 10px;
   justify-content: space-around;
   align-items: ;
-  width: 90%;
+  width: 100%;
   margin-top: 15px;
-  margin-left: 5%;
   
 }
 .link i {
