@@ -355,44 +355,12 @@ b {
 #cat {
     color: ;
     position: relative;
-}
-#cat p {
-    font-size: 20px;
-    position: relative;
+    margin-top: 25px;
     text-align: center;
-}
-#cat div {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-left: 5%;
-    position: relative;
+    font-size: 15px;
     
 }
-#cat div button {
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background: rgb(255,255,255,0.3);
-    position: relative;
-    font-size: 15px;
-    margin:5px 2.5%;
-    color: white;
-    text-align: center; 
-    flex: 1 0 45%;
-}
-#cat div button:hover {
-    background: rgb(255,255,255,0.4);
-}
-#cat div button i {
-    font-size: 25px;
-    margin: 5px;
-   
-}
+
 #test {
     padding: 20px;
     background: #333333;
