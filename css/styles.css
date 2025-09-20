@@ -215,21 +215,23 @@ a {
 .link p {
     margin: 0; /* remove default p spacing */
 }
-#sbar {
-    width: 100%;
-}
 #searchdiv {
-    display: flex;
-    width: 80%;
-    box-sizing: border-box;
-    margin-left: 10%;
-    border: 1px solid rgb(0,0,0,0.5);
+    border-radius: 13px;
+    border: 1.5px solid rgb(0,0,0,0);
     padding: 5px;
-    border-radius: 15px;
+    display: flex;
+    box-sizing: border-box;
+    min-width: ;
+    width: 65%;
+    max-height: 40px;
+    mix-blend-mode: difference;
+    background: rgb(255,255,255,.3);
 }
 #searchdiv i {
-    font-size: 20px;
+   font-size: 20px;
     padding: 5px;
+    border: none;
+    background: transparent;
     
 }
 #searchdiv input {
@@ -266,12 +268,14 @@ a {
 #second {
     display: flex;
 }
-#second button {
+#second i {
+    border: 1.5px solid rgb(0,0,0,0);
+    border-radius: 13px;
+    padding: 10px;
     font-size: 20px;
-    border: 1px solid rgb(0,0,0,0.5);
-    background: transparent;
-    padding: 5px 10px ;
-    border-radius: 15px;
+    margin:0 5px;
+    background: rgb(255,255,255,.3);
+    color: black;
 }
 #navig {
     font-size: 20px;
