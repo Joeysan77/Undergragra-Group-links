@@ -398,7 +398,21 @@ b {
     background: #333333;
 }
 
-
+#info {
+    width: 99%;
+    color: black;
+    margin-left: .5%;
+    box-sizing: border-box;
+    align-items:  center;
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#info p {
+    margin: 0;
+    line-height: 22px;
+}
 
 
 
