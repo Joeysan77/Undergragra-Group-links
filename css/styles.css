@@ -382,13 +382,12 @@ b {
     line-height: 22px;
 }
 .pp1 {
-    font-size: 20px;
+     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 5px;
     display: flex;
     font-weight: 600;
     color: black;
-    margin-bottom: 25px;
-    padding-bottom: 20px;
 }
 
 
