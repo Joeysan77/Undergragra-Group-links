@@ -299,6 +299,7 @@ a {
   padding:10px;
   border-radius: 15px;
   border: 1px solid rgb(0,0,0,0.2);
+  flex: 1;
 }
 .flex img:hover {
   scale: 1.05;
@@ -309,6 +310,7 @@ a {
   text-align: center;
   flex-direction: column;
   justify-content: center;
+  flex: 2;
 }
 .flexp {
     font-size: 20px;
