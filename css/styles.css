@@ -66,6 +66,10 @@ body ,button  , p , input {
     font-family: FedExSans,Arial,sans-serif;
     
 }
+
+* {
+  box-sizing: border-box !important;
+}
 #dark {
     height:100%;
     width: 100%;
@@ -298,6 +302,10 @@ a {
   padding: 10px;
   justify-content: space-around;
   align-items: ;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 5%;
+  
 }
 .link i {
   font-size: 20px;
