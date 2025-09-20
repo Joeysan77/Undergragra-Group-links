@@ -294,6 +294,8 @@ a {
   display: flex;
   color: white;
   background: rgb(0,134,47);
+  border-radius: 15px;
+  padding: 10px;
 }
 .link i {
   font-size: 20px;
