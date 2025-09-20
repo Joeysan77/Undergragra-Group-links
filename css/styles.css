@@ -10,61 +10,87 @@ body {
     font-family: FedExSans;
     transition: 0.5s;
 }
-@font-face{ 
-    font-family:FedExSans;
-    font-style:normal; 
-    font-weight:300;src:url("../Fonts/FedExSans_W-Light.woff2") format("woff2")}
-
-@font-face{ 
-    font-family:FedExSans; 
-    font-style:italic; 
-    font-weight:300;src:url("../Fonts/FedExSans_W-Light-Italic.woff2") format("woff2")}
-
-@font-face{
-    font-family:FedExSans;
-    font-style:normal;
-    font-weight:400;src:url("../Fonts/FedExSans_W-Regular.woff2") format("woff2")}
-
-@font-face{
-    font-family:FedExSans;
-    font-style:italic;
-    font-weight:400;src:url("../Fonts/FedExSans_W-Italic.woff2") format("woff2")}
-    
-@font-face{
-     font-family:FedExSans;   .
-     font-style:normal; 
-     font-weight:500;src:url("../Fonts/FedExSans_W-Medium.woff2") format("woff2")}
-     
 @font-face {
-    font-family:FedExSans;
-    font-style:normal;
-    font-weight:700;src:url("../Fonts/FedExSans_W-Bold.woff2") format("woff2")}
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansHairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
 
-@font-face { 
-    font-family:FedExSans; 
-    font-style:italic; 
-    font-weight:700;src:url("../Fonts/FedExSans_W-Bold-Italic.woff2") format("woff2")}
-    
+/* Facebook Sans - Light (300) */
 @font-face {
-    font-family:FedExSansArabic; 
-    font-style:normal; 
-    font-weight:700;src:url("../Fonts/FedExSansArabic_W-Bold.woff2") format("woff2")}
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
 
+/* Facebook Sans - Light Italic (300 italic) */
 @font-face {
-    font-family: FedExSansArabic; 
-    font-style:normal;  
-    font-weight:300;src:url("../Fonts/FedExSansArabic_W-Light.woff2") format("woff2")}
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
 
-@font-face { 
-    font-family:FedExSansArabic; 
-    font-style:normal;
-    font-weight:400;src:url("../Fonts/FedExSansArabic_W-Regular.woff2") format("woff2")}
+/* Facebook Sans - Regular (400) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
+/* Facebook Narrow App Regular (400, alt style) */
+@font-face {
+  font-family: "FacebookNarrow";
+  src: url("../fonts/FacebookNarrowAppRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
+/* Facebook Sans - Italic (400 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
 
-body ,button  , p , input {
-    font-family: FedExSans,Arial,sans-serif;
-    
+/* Facebook Sans - Bold (700) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Facebook Sans - Bold Italic (700 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Facebook Sans - Heavy (900) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansHeavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Facebook Sans - Heavy Italic (900 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("../fonts/FacebookSansHeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+    font-family: "FacebookSans";
 }
 
 * {
