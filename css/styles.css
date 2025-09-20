@@ -296,12 +296,18 @@ a {
   background: rgb(0,134,47);
   border-radius: 15px;
   padding: 10px;
+  justify-content: space-around;
+  align-items: ;
 }
 .link i {
   font-size: 20px;
+  margin: 0px 5px;
+  padding: 0;
 }
 .link p {
   font-size: 15px;
+  margin: 0;
+  padding-block: 0;
 }
 
 
