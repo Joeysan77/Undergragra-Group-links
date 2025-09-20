@@ -310,18 +310,22 @@ a {
   text-align: center;
   flex-direction: column;
   justify-content: center;
+  gap: 5px;
   flex: 2;
+  
 }
 .flexp {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
     font-weight: 600;
+    text-align: center;
     color: black;
 }
 .flexpid {
     color: rgb(0,0,0,.7);
     margin: 10px;
+    text-align: center;
 }
 .link {
   display: flex;
